@@ -1,0 +1,70 @@
+.read-section {
+    width: 100%;
+    margin:30px auto;
+    direction: rtl;
+  }
+  .read-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    padding: 16px 20px;
+  }
+  .read-header h2 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: IRANYekanWeb-regular;
+  }
+  .read-more {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #19bfd3;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: IRANYekanWeb-regular;
+  }
+  .read-more svg {
+    margin-left: 4px;
+    
+
+  }
+  .read-more svg path {
+    fill: #19bfd3;
+  }
+  
+ 
+  .read-cards {
+    
+    display: flex;
+    gap: 16px;
+    padding-bottom: 8px;
+  }
+  
+  
+  /* ===== کارت‌های مقالات ===== */
+  .read-card {
+    width: 323px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+ 
+  .read-card img {
+    display: block;
+    width: 100%;
+    height: 201px;
+    object-fit: cover;
+  }
+  .read-card .card-title {
+    padding: 12px;
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: right;
+    font-family: IRANYekanWeb-regular;
+    font-weight: ;
+    color: #0c0c0c;
+    
+  }

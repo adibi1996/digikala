@@ -1,0 +1,90 @@
+
+.Shoppingcategory {
+    width: 100%;
+    height: 464px;
+    margin-top: 30px;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 16px 40px 16px;
+    position: relative;
+
+    .shopping-item{
+        margin-bottom: 30px;
+       
+        
+      >h3{
+        font-size: 21px;
+        font-weight: 550;
+        color: #000000;
+        font-family: IRANYekanWeb-regular;
+        text-align: center;
+
+        
+      }
+    }
+}
+
+
+
+.mySwiper__3 {
+    width: 100%;
+    padding: 16px 0;
+    height: 328px;
+    
+   
+    
+   
+}
+
+.swiper-wrapper {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-flow: column wrap;
+    box-sizing: content-box;
+  
+}
+
+
+.swiper-slide.custom-active-slide {
+    width:179px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 12px 0;
+}
+
+
+.shopping-active {
+   
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.shopping-active a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.shopping-active img {
+    width: 86px;
+    height: 86px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
+.shopping-active p {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.5;
+    font-family: IRANYekanWeb-regular;
+}

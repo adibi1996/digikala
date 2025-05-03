@@ -1,0 +1,291 @@
+@import url(./settings.css);
+@import url(./home/footer.css);
+
+header {
+
+    width: 100%;
+    height: 72px;
+    background-color: #ffd08f;
+    padding: 12px;
+
+    .header-gold{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 16px;
+        
+        .header-right{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 4px 0;
+            
+            a{
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                gap:6px;
+                >img{
+                    width: 31.99px;
+                    height: 31.99px;
+                    cursor: pointer;
+                    object-fit: cover;
+                }
+                >span{
+                    font-size: 21px;
+                    font-weight: 800;
+                    font-family: IRANYekanWeb-Medium;
+                    color: rgb(1, 73, 75);
+                }
+                >p{
+                    font-size: 21px;
+                    font-weight: 400;
+                    font-family: IRANYekanWeb-Medium;
+                    color: rgb(1, 73, 75);
+                }
+            }
+         
+    
+        }
+        .header-left{
+            width: 150.57px;
+            height: 48px;
+            border-radius: 8px;
+            background-color: rgb(255, 243, 246);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 12px 12px 4px;
+            
+            >a{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                color:rgb(230, 18, 61);;
+                font-size: 14px;
+                font-weight: 700;
+                font-family: IRANYekanWeb-regular;
+                cursor: pointer;
+                
+                
+            }
+            >svg{
+                width: 24px !important;
+                height: 24px !important;
+                margin-right: 8px;
+                  
+                path {
+                        fill: rgb(230, 18, 61);
+                    }
+               
+            }
+    
+        }
+    
+
+    }
+ 
+
+   
+}
+
+
+main{
+    width: 100%;
+   
+            
+
+    .main-gold{
+        width: 100%;
+        height: 300px;
+        background-color: rgb(1, 73, 75);
+        background-image: url(/images/gold/gold-img/banner-pattern-2.png);
+        display: flex;
+        align-items: center;
+
+        .main-gold-body{
+            width: 100%;
+            height: 207px; 
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            padding-right: 20px;
+            margin: 0 67.273px;
+            
+            .gold-1{
+                >span {
+                    font-size: 33px;
+                    font-weight: 800;
+                    color: rgb(255, 255, 255);
+                    text-decoration: none;
+                    font-family: IRANYekanWeb-ExtraBold;
+                    a {
+                        font-size: 33px;
+                        font-weight: 800;
+                        color: rgb(255, 208, 143);
+                        text-decoration: none;
+                        font-family: IRANYekanWeb-ExtraBold;
+                    }
+                }
+                
+                    }
+
+                .gold-2{
+                    margin-top: 10px;
+                    width: 410px;
+                        p {
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 2.5;
+                                color: rgb(255, 255, 255);
+                                font-family: IRANYekanWeb-Medium;
+                                text-align: justify;
+                            }
+    }
+    .gold-3{
+        margin-top: 5px;
+        width: 180px;
+        height: 40px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        p {
+            font-size: 12px;
+            font-weight: 700;
+            color: rgb(12, 12, 12);
+            font-family: IRANYekanWeb-regular;
+        }
+    }
+
+    }
+
+    
+
+
+
+}
+.main-gold-set{
+    width: 100%;
+    height: 568.35px;
+    
+    padding: 16px;
+    background-color: rgb(229, 236, 235);
+    margin: 10px auto;
+    border-radius: 16px;
+    margin-bottom: 50px;
+  
+
+    >p{
+        font-size: 21px;
+        font-weight: 800;
+        line-height: 44.1px;
+        color: rgb(1, 73, 75);
+        font-family: IRANYekanWeb-ExtraBold;
+
+    }
+    .main-gold-top{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        
+
+        .main-gold-top-item{
+            width: 315px;
+            height: 408.88px;
+            border-radius: 8px;
+            display: flex;
+            flex-flow: column;
+            text-align: center;
+            gap: 11px;
+            
+            
+            
+            >h2{
+                    font-size: 21px;
+                    font-weight: 800;
+                    line-height: 26.25px;
+                    color: rgb(255, 255, 255);
+                    font-family: IRANYekanWeb-ExtraBold;
+                    padding: 0 8px;
+                    margin-top: 32px;
+
+            }
+            >span{
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 15px;
+                color: rgb(255, 255, 255);
+                font-family: IRANYekanWeb-regular;
+                padding: 0 8px;
+
+            }
+            .item-image{
+                >img {
+                    width: 315px;
+                    height: 300px;
+                    object-fit: cover;
+                }
+
+            }
+
+        }
+        .main-gold-top-item:nth-child(1),
+        .main-gold-top-item:nth-child(3) {
+            background-color: rgb(1, 73, 75);
+        }
+        .main-gold-top-item:nth-child(2),
+        .main-gold-top-item:nth-child(4){
+            background-color: rgb(255, 208, 143);
+            h2 {
+                color: rgb(1, 73, 75) ;
+            }
+            span {
+                color: rgb(1, 73, 75) ;
+            }
+        }
+
+
+    }
+    .main-gold-bottom{
+        width: 180px;
+        height: 40px;
+        background-color: rgb(1, 73, 75);
+        border-radius: 8px;
+        margin: 10px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        p {
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 26.04px;
+            color: rgb(255, 255, 255);
+            font-family: IRANYekanWeb-regular;
+        }
+    }
+
+}
+
+  
+}
+
+.footer .container .footer5-item {
+    svg {
+        path{
+            fill: rgb(206, 157, 83)!important;
+        }
+    }
+}
+.footer .container  .footer__2 .footer__2-item {
+    text-decoration: underline;
+    margin-right: 5px;
+}

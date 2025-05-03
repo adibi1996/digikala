@@ -1,0 +1,618 @@
+header{
+    width: 100%;
+    height: 168px;
+    box-shadow: 0.5px 0.5px 1px 0 gray;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    .topHeader{
+        width: inherit;
+        height: 128px;
+       
+        .banner {
+            width: inherit;
+            height: 60px;
+           
+            img {
+                width: inherit;
+                height: inherit;
+                object-fit: cover;
+            }
+            
+        }
+        .searchBar{
+            width: 100%;
+            height: 68px;
+            padding: 0 16px;
+            display: flex;
+            
+            .logo{
+                width: 14.3%;
+                height: inherit;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+    
+                svg{
+                    width: 195px;
+                    height: 30px;
+                }
+            }
+            .search__Box{
+                width: 64%;
+                height: inherit;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                padding-right: 20px;
+    
+                .search {
+                    width: 600px;
+                    height: 44px;
+                    background-color:var(--bgcolor-search);
+                    display: flex;
+                    flex-flow: row wrap;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 16PX;
+                    >svg {
+                            
+                        path {
+                            fill: rgb(161, 163, 168);
+                        }
+                    }
+                    input[type=text]{
+                        width: 544px;
+                        height: 26.03px;
+                        background-color: transparent;
+                        outline: none;
+                        border: none;
+                     &::placeholder{
+                        font-family:IRANYekanWeb-regular ;
+                        color: rgb(129, 133, 139);
+                        font-size: 12px;
+                        font-weight: 400;
+                     }   
+                    }
+                
+                     }
+                    }
+                
+            }
+            .register{
+                width: 21.7%;
+                height: inherit;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                
+                .bell{
+                    display: block;
+                    text-decoration: none;
+                    >svg{
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+                .enter{
+                    width: 135px;
+                    height: 40px;
+                    text-decoration: none;
+                    border-radius: 8px;
+                    border: 1px solid rgb(224, 224, 226);
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: space-around;
+                    align-items: center;
+                    .svg{
+    
+                    }
+                    .root{
+                        display: flex;
+                        flex-flow: row wrap;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 6px;
+                        .right,.left{
+                            font-size: 12px;
+                            font-weight: 700;
+                            font-family:IRANYekanWeb-regular;
+                            color: rgb(12, 12, 12);
+                           
+    
+                        } 
+                        .vertical{
+                            width: 2.5px;
+                            height: 14px;
+                            background-color: rgb(12, 12, 12);
+                            display: block;
+        
+                        } 
+    
+                    }
+    
+               
+            }
+            .vertical__2{
+                width: 1px;
+                height: 20px;
+                background-color: rgb(224, 224, 226);
+             margin-right: -20px;
+            
+        }
+        }
+    }
+    .menu{
+        width: 100%;
+        height: 40px;
+        padding: 0 16px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    
+        nav{
+            width: fit-content;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+          
+            .category__1{ 
+                height: 40px;
+                color: rgb(63, 64, 100);
+                font-size: 14px;
+                font-weight: 700;
+                font-family:IRANYekanWeb-regular ;
+                display: flex;
+                align-items: center;
+                gap:10px;
+                position: relative;
+    
+                .subMenu{
+                    width: 74vw;
+                    height: 70vh;
+                    background-color: white;
+                    position: absolute;
+                    top: 100%;
+                    z-index: 5;
+                    display: none;
+                .subMenu__right{
+    
+                    width: 18%;
+                    height: 100%;
+                    background-color: rgb(240,240,241);
+                    overflow: auto;
+                    direction: ltr; 
+    
+    
+                    .subMenu__right--item{
+                        width: 100%;
+                        height: 52px;
+                        
+                        
+                        
+                        .subMenu__right--items{
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            flex-flow: row-reverse wrap;
+                            justify-content:end;
+                            align-items: center;
+                            gap: 8px;
+                            font-size: 12px;
+                            font-weight: 700;
+                            font-family:IRANYekanWeb-regular ;
+                            color: rgb(63, 64, 100);
+                            text-decoration: none;
+                            >svg{
+                                path{
+                                    fill: rgb(63, 64, 100);
+                                }
+                            }
+                            &:hover{
+                                background-color: white;
+                                color: rgb(239,57,78);
+                                >svg{
+                                    path{
+                                        fill: rgb(239,57,78);
+                                    }
+                                }
+                            }
+                            .subsubMenu{
+                                width: 82%;
+                                height: inherit;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                display: flex;
+                                flex-flow: row wrap;
+                                overflow: auto;
+                                display: none;
+                                background-color: white;
+                                direction: rtl;
+                                overflow-y: scroll;
+                               
+    
+                                    .subsubMenu--item {
+                                        
+                                        flex-grow: 1;
+                                        height: 100%;
+                                        background-color: #fff;
+                                        display: flex;
+                                        flex-flow: row wrap;
+                                        gap:16px;
+                                        .submenu_Category {
+                                            width: inherit;
+                                            height: inherit;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: space-between;
+                                            flex-flow: row wrap;
+                                            gap:16px;
+                                            .submenu_back_category {
+                                                width: calc(25% - 16px);
+                                                min-width: 180px;
+                                                height: 1062px;
+                                                text-align: right;
+                                                padding: 10px;
+                                                h2 {
+                                                    font-size: 14px;
+                                                    font-weight: 700;
+                                                    line-height: 30.1px;
+                                                    color: #0c0c0c;
+                                                    margin-bottom: 10px;
+                                                    &:hover {
+                                                        color: #ef4056;
+                                                    }
+                                                }
+                                                p {
+                                                    font-size: 12px;
+                                                    font-weight: 400;
+                                                    line-height: 26.04px;
+                                                    color: #81858b;
+                                                    &:hover {
+                                                        color: #ef4056;
+                                                    }
+                                                }
+                                                .p2 {
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-content: right;
+                                                    font-size: 12px;
+                                                    font-weight: 700;
+                                                    color: #008eb2;
+                                                    margin-bottom: 20px;
+                                                    &:hover {
+                                                        color: #008eb2;
+                                                    }
+                                                    svg {
+                                                        path {
+                                                            fill: #008eb2;
+                                                        }
+                                                    }
+                                                }
+                                                .p2-3 {
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-content: right;
+                                                    font-size: 14px;
+                                                    font-weight: 700;
+                                                    line-height: 30.1px;
+                                                    color: #0c0c0c;
+                                                    margin-bottom: 5px;
+                                                    margin-top: 5px;
+                                                    svg {
+                                                        path {
+                                                            fill: #0c0c0c;
+                                                            &:hover {
+                                                                fill:#ef4056;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                                .p2-3-1 {
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-content: right;
+                                                    font-size: 14px;
+                                                    font-weight: 700;
+                                                    line-height: 30.1px;
+                                                    color: #0c0c0c;
+                                                    margin-bottom: 10px;
+                                                    margin-top: 40px;
+                                                    svg {
+                                                        path {
+                                                            fill: #0c0c0c;
+                                                            &:hover {
+                                                                fill:#ef4056;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                      
+                                    
+                                }
+                            }
+                            &:hover{
+                                .subsubMenu{
+                                    display: flex;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+                }
+                
+                &:hover{
+                    .subMenu{
+                        display: block;
+                    }
+                }
+    
+    
+                .vertical__3{
+                    width: 1px;
+                    height: 20px;
+                    background-color: rgb(224, 224, 226);
+                }
+        
+                 >svg{
+    
+                 }
+            }
+            .active{
+                height: 40px;
+                a{
+                    height: 40px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    font-family:IRANYekanWeb-regular ;
+                    text-decoration: none;
+                    color: rgb(98, 102, 109);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap:8px;
+                    
+                    >svg{
+                        width: 24px !important;
+                        height: 24px !important;
+                        path{
+                            fill: rgb(161, 163, 168);
+                        }
+                    }
+                }
+    
+            }
+            .vertical__4{
+                width: 1px;
+                height: 20px;
+                background-color: rgb(224, 224, 226);
+            }
+    
+        }
+    
+    
+    .Select_City {
+        width: 173.31px;
+        height: 34.3px;
+        .Select_City2 {
+            width: inherit;
+            height: inherit;
+            background-color:rgb(245,127,23,0.07);
+            border-radius: 999px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+            cursor: pointer;
+            padding: 4px 0;
+            >svg {
+                width: 21px !important;
+                height: 21px !important;
+                path {
+                    fill: rgb(245,127,23);
+                }
+            }
+            >p {
+            font-size: 12px;
+            font-weight: 700;
+            font-family: IRANYekanWeb-regular;
+            color: rgb(245,127,23);
+            }
+        }
+    }   
+}
+
+
+
+
+
+label[for=show] {
+width: 173.31px;
+height: 34.3px;
+border-radius: 999px;
+background-color: rgba(245, 127, 23, 0.07);
+display: flex;
+justify-content: center;
+align-items: center;
+position: sticky;
+z-index: 10;
+}
+
+.menu-city {
+width: 462px;
+height: 553px;
+background-color: white;
+border-radius: 8px;
+position: absolute;
+left: calc(50% - 462px / 2);
+top: calc(50% - 553px / 2);
+display: none;
+position: fixed;
+z-index: 10;
+flex-flow: column;
+overflow: hidden;
+overflow-y: scroll;
+label[for=close] {
+color: rgb(0, 0, 0);
+font-size: 30px;
+cursor: pointer;
+}
+.citypage-top {
+width: 100%;
+height: 58.4px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-flow: row-reverse;
+padding: 19px;
+margin: 1px auto;
+border-bottom: 1px solid #ccc;
+background-color: #fff;
+position: sticky;
+top: 0;
+z-index: 100;
+p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 33.6px;
+    color: #0c0c0c;
+    font-family: IRANYekanWeb-regular;
+}
+}
+.citypage-2 {
+width: 90%;
+height: 44px;
+background-color: #e8e8e8;
+margin: 1px auto;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 16px;
+border-radius: 8px;
+>svg{
+    path{
+        fill: #a1a3a8 !important;
+    }
+}
+
+input {
+    width: 100%;
+    height: 44.03px;
+    background-color: #e8e8e8;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    margin-right: 5px;
+    font-family: IRANYekanWeb-regular;
+
+}
+}
+.citypage-3 {
+width: 90%;
+height: 50.4px;
+margin: 16px auto;
+p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: IRANYekanWeb-regular;
+    color: #424242;
+    line-height: 25.2px;
+}
+}
+.citypage-4 {
+width: 90%;
+height: 28.8px;
+margin: 1px auto;
+margin-bottom: 8px;
+p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28.8px;
+    font-family: IRANYekanWeb-regular;
+    color: #3f4064;
+}
+}
+.citypage-5 {
+width: 90%;
+height: 40px;
+margin: 1px auto;
+font-family: IRANYekanWeb-regular;
+.swiper-slide {
+    width: 72.35px;
+    height: inherit;
+    border: 1px solid #e8e8e8;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30.1px;
+    color: #3f4064;
+    cursor: pointer;
+}
+}
+.citypage-6 {
+width: 90%;
+height: auto;
+margin: 16px auto;
+.citypage-6-list {
+    width: 100%;
+    height: 47px;
+    border-bottom: 1px solid #e8e8e8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    cursor: pointer;
+    .citypage-6-list-text {
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2x;
+        .bold {
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 30.1px;
+            color: rgb(0, 0, 0);
+            font-family: IRANYekanWeb-regular;
+        }
+        .not_bold {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 30.1px;
+            color: rgb(129, 133, 139);
+            font-family: IRANYekanWeb-regular;
+        }
+    }
+}
+}
+}
+
+#show:checked~.menu-city {
+display: flex;
+}
+
+#close:checked~.menu-city {
+display: none;
+}
+
+#close,
+#show {
+display: none;
+}
+

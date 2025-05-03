@@ -1,0 +1,189 @@
+.amazing {
+    width: 88.5%;
+    height: 294px;
+    background-color: #d82e4e;
+    margin: 16px auto;
+    border-radius: 16px;
+    .mySwiper__2{
+        width: 100%;
+        height: inherit;
+        background-color: #d82e4e;
+        padding: 20px 0 20px 20px;
+        border-radius: 16px;
+        
+        .active{
+            
+            background-color: #d82e4e;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-content: space-between;
+
+            .svg__1 {
+                
+            }
+            .svg__2 {
+                display: flex;
+                justify-content: center;
+              
+            }
+
+            a {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                color: white;
+                font-size: 12px;
+                font-weight: 500;
+                font-family: IRANYekanWeb-regular;
+
+                >svg {
+
+                    path {
+                        fill: white;
+                    }
+                }
+            }
+        }
+       
+        .root__2 {
+            border-radius: 0 8px 8px 0;
+        }
+        .root {
+            background-color: white;
+            padding: 8px;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items: flex-end;
+            
+            img {
+                width: 132px;
+                height: 132px;
+                object-fit: cover;
+                
+            }
+
+            >p {
+                font-size: 12px;
+                font-family: IRANYekanWeb-Bold;
+                font-weight: 700;
+                color: rgb(98, 102, 109);
+                cursor: pointer;
+                display: -webkit-box;
+                overflow: hidden;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                line-height: 20px;
+                text-align: right;
+            }
+
+            .price {
+                width: 100%;
+                display: flex;
+                flex-flow:row-reverse;  
+                justify-content: space-between;
+                .tomans {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: rgb(63, 64, 100);
+                    font-size: 14px;
+                    font-weight: 700;
+                    font-family: IRANYekanWeb-Bold;
+                }
+            }
+
+            .discount {
+                background-color: rgb(211, 47, 47);
+                font-family: IRANYekanWeb-Bold;
+                font-size: 12px;
+                border-radius: 16px;
+                display: inline-block;
+                width: 34px;
+                height: 20px;
+                color: white;
+                font-weight: 700;
+                line-height: 20px;
+            }
+
+            .oldPrice {
+                width: 57%;
+                text-align: center;
+                font-family: IRANYekanWeb-Bold;
+                font-size: 12px;
+                font-weight: 400;
+                color: rgb(192, 194, 197);
+                
+                text-decoration: line-through;
+            }
+
+        }
+       
+        .root__3 {
+            border-radius: 8px 0 0 8px;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            color: rgb(63, 64, 100);
+            font-size: 12px;
+            font-weight: 500;
+            font-family: IRANYekanWeb-regular; 
+
+            .active__1{
+                display: flex;
+                flex-flow: column wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                >span {
+                
+                    font-size: 14px;
+                    font-weight: 500;
+                    font-family: IRANYekanWeb-regular;
+                }
+                .root__4{
+                    width: 52px;
+                    height: 52px;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: center;
+                    align-items: center;
+                    
+        
+                    border-bottom-color: rgb(25, 191, 211);
+                        border-bottom-left-radius: 50%;
+                        border-bottom-right-radius: 50%;
+                        border-bottom-style: solid;
+                        border-bottom-width: 2px;
+                        border-left-color: rgb(25, 191, 211);
+                        border-left-style: solid;
+                        border-left-width: 2px;
+                        border-right-color: rgb(25, 191, 211);
+                        border-right-style: solid;
+                        border-right-width: 2px;
+                        border-top-color: rgb(25, 191, 211);
+                        border-top-left-radius: 50%;
+                        border-top-right-radius: 50%;
+                        border-top-style: solid;
+                        border-top-width: 2px;    
+                >svg{
+                    path{
+                        fill:rgb(25, 191, 211) ;
+                    }
+            }       
+        
+                    
+                    
+                    }
+
+            }
+             
+        
+        
+            
+
+    }
+
+}

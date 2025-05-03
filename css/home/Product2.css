@@ -1,0 +1,130 @@
+.Productcategories{
+    margin-top: 30px; 
+    width: 100%;
+    
+    
+    
+     .cat-1-ch{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        
+        
+    
+          .cat-1-item{
+            display: flex;
+            flex-flow: column wrap;
+            width: 24%;
+            border: 1px solid #e0e0e2;
+            
+            padding: 8px 20px;
+            
+    
+            >h4{
+                font-size: 16px;
+                font-family: IRANYekanWeb-regular;
+                color: #23254e;
+                font-weight: 600;
+                margin-bottom: 5px;
+    
+            }
+            >p{
+                color: #81858b;
+                font-size: 13px;
+                font-weight: 400;
+                font-family: IRANYekanWeb-regular;
+                margin-bottom: 10px;
+    
+            }
+            .cat-1-img{
+                display: flex;
+                flex-wrap: wrap;
+                margin-bottom: 15px;
+                justify-content: space-between;
+                position: relative;    
+                width: 100%;
+    
+    
+                >a{
+                    width: 50%;
+    
+    
+                    >img{
+                        width: 100%;
+                        display: block;
+                        padding: 8px;
+                        object-fit: cover;
+    
+                          
+                    }
+                }
+            }
+            >a{
+               
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              text-decoration: none;
+              margin-bottom: 20px;
+              
+          >span{
+           
+            font-size: 12px;
+            font-weight: 600;
+            font-family: IRANYekanWeb-regular;
+            color: #19bfd3;
+  
+            }
+                
+                >svg{
+                    width: 24px !important;
+                    height: 24px !important;
+                    cursor: pointer;
+                    margin-left: 4px;
+                    
+                    cursor: pointer;
+                    path{
+                        fill: #19bfd3;
+                    }
+                }
+                
+            }
+        }
+     }
+    
+    }
+    .cat-1-item:first-child {
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
+      }
+      
+      .cat-1-item:last-child {
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;
+      }
+    
+      
+    
+      .cat-1-img::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        width: 1px;
+        background-color: #e0e0e2;
+        transform: translateX(-0.1px);
+      }
+      
+      
+      .cat-1-img::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+        height: 1px;
+        background-color: #e0e0e2;
+        transform: translateY(-0.1px);
+      }
+      
