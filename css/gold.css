@@ -102,7 +102,7 @@ main{
         width: 100%;
         height: 300px;
         background-color: rgb(1, 73, 75);
-        background-image: url("../images/gold/gold-img/banner-pattern-2.png");
+        background-image: url(../images/gold/gold-img/banner-pattern-2.png);
         display: flex;
         align-items: center;
 
