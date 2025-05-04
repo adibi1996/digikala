@@ -115,3 +115,7 @@
     border-radius: none;
    
 }
+.subMenu ::-webkit-scrollbar-thumb{
+    border-radius: 9999px;
+   
+}
